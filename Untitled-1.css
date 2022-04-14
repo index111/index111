@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+.demoxoay img{
+	width: 20%;
+}
+.demoxoay img:hover{
+	  transform: scaleX(1) scaleY(1) scaleZ(0.8) rotateX(37deg) rotateY(-11deg) rotateZ(-39deg) translateX(0px) translateY(0px) translateZ(0px) skewX(1deg) skewY(0deg);
+	transition: transform 2s;
+}
+h1{
+	color: bisque;
+	font-size: 40px;
+}
+h1:hover{
+	color:brown !important;
+	font-size: 60px !important;
+	transform: scale(2,2);
+	trasition: transform 1s, color 1s, font-size 2s;
+}
